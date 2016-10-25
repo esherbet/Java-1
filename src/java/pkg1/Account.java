@@ -18,7 +18,26 @@ public class Account {
     private double minBal;
     private float accFees;
     private char feeFreq; //M:onthly, Q:uarterly, etc
-    private float intrate;
-    private char intfreq; //M:onthly, Q:uarterly, etc
+    private float intRate;
+    private char intFreq; //M:onthly, Q:uarterly, etc
     private double accBal;
+    
+    //public methods
+    // 1. constructors
+    public Account(){
+        accNum = 0 ;
+        accName = "";
+        accType = ' ';
+        minBal = 0;
+        accFees = 0;
+        feeFreq= ' ';
+        intRate = 0;
+        intFreq = ' ';
+        accBal = 0;
+    }
+    // 2. setter methods
+    
+    // 3. getter methods
+    
+    
 }
