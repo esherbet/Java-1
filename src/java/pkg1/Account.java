@@ -28,7 +28,7 @@ public class Account {
         intFreq = ' ';
         accBal = 0;
     }
-    
+    //----------------------------------------------------------
     //2. setter methods
     public void setAccNum(long num){
         
@@ -64,6 +64,43 @@ public class Account {
     public void setAccBal(double accBal) {
         this.accBal = accBal;
     }
+    //-------------------------------------------------------
     //3. getter methods
+
+    public long getAccNum() {
+        return accNum;
+    }
+
+    public String getAccName() {
+        return accName;
+    }
+
+    public char getAccType() {
+        return accType;
+    }
+
+    public double getMinBal() {
+        return minBal;
+    }
+
+    public float getAccFees() {
+        return accFees;
+    }
+
+    public char getFeeFreq() {
+        return feeFreq;
+    }
+
+    public float getIntRate() {
+        return intRate;
+    }
+
+    public char getIntFreq() {
+        return intFreq;
+    }
+
+    public double getAccBal() {
+        return accBal;
+    }
     
 }
