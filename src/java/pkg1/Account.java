@@ -1,11 +1,5 @@
 package java.pkg1;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Account Object 
  * @author Evan Sherbet 
@@ -18,7 +12,58 @@ public class Account {
     private double minBal;
     private float accFees;
     private char feeFreq; //M:onthly, Q:uarterly, etc
-    private float intrate;
-    private char intfreq; //M:onthly, Q:uarterly, etc
+    private float intRate;
+    private char intFreq; //M:onthly, Q:uarterly, etc
     private double accBal;
+    
+    
+    public Account(){
+        accNum = ' ';
+        accName = " ";
+        accType = 0;
+        minBal = 0;
+        accFees = 0;
+        feeFreq = ' ';
+        intRate = 0;
+        intFreq = ' ';
+        accBal = 0;
+    }
+    
+    //2. setter methods
+    public void setAccNum(long num){
+        
+    }
+    public void setAccName(String accName) {
+        this.accName = accName;
+    }
+
+    public void setAccType(char accType) {
+        this.accType = accType;
+    }
+
+    public void setMinBal(double minBal) {
+        this.minBal = minBal;
+    }
+
+    public void setAccFees(float accFees) {
+        this.accFees = accFees;
+    }
+
+    public void setFeeFreq(char feeFreq) {
+        this.feeFreq = feeFreq;
+    }
+
+    public void setIntrate(float intrate) {
+        this.intRate = intrate;
+    }
+
+    public void setIntfreq(char intfreq) {
+        this.intFreq = intfreq;
+    }
+
+    public void setAccBal(double accBal) {
+        this.accBal = accBal;
+    }
+    //3. getter methods
+    
 }
